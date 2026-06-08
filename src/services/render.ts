@@ -186,6 +186,25 @@ export function renderOverview() {
           <div class="src"><div class="src-name">control evidence</div><div class="src-tit">Turn merchant snapshots into operator proof</div><p>Every lane stays tied to owner, control family, account path, and the next concrete remediation move.</p></div>
           <div class="src"><div class="src-name">recruiter signal</div><div class="src-tit">Show real FinTech risk depth</div><p>This is real merchant-review and underwriting proof, not generic payment-processing copy.</p></div>
         </div>
+      </section>
+      <section class="section">
+        <div class="sh"><h2>Board questions this answers</h2><div class="note">exposure · savings · investment</div></div>
+        <div class="stack">
+          <div class="src"><div class="src-name">exposure</div><div class="src-tit">Which merchants are creating avoidable settlement risk?</div><p>Chargeback pressure, reserve gaps, stale KYB packets, and payout throttles stay visible before exposure turns into processor escalation or partner distrust.</p></div>
+          <div class="src"><div class="src-name">savings</div><div class="src-tit">Where can review effort stop being duplicated?</div><p>The desk consolidates fraud, underwriting, payout, and manual-review evidence so risk teams do not rebuild the same merchant packet across tools.</p></div>
+          <div class="src"><div class="src-name">investment</div><div class="src-tit">Which controls deserve automation first?</div><p>Blocking findings show whether KYB refresh, reserve-floor checks, chargeback monitoring, or payout review should receive the next platform investment.</p></div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="sh"><h2>Evidence model</h2><div class="note">signal · proof · decision</div></div>
+        <table class="ttbl">
+          <thead><tr><th>Signal</th><th>Owner</th><th>Required proof</th><th>Decision supported</th></tr></thead>
+          <tbody>
+            <tr><td><b>Chargeback pressure</b></td><td>Risk Operations</td><td>Dispute rate, trend window, account cohort, remediation owner</td><td>Hold, graduate, or intensify merchant review</td></tr>
+            <tr><td><b>Reserve coverage</b></td><td>Treasury Operations</td><td>Reserve floor, payout exposure, exception memo, finance approval</td><td>Adjust reserve, unblock payout, or keep settlement gated</td></tr>
+            <tr><td><b>KYB freshness</b></td><td>Merchant Underwriting</td><td>Beneficial-owner packet, sanctions recency, final review memo</td><td>Approve, refresh, or block account posture</td></tr>
+          </tbody>
+        </table>
       </section>`
   );
 }
